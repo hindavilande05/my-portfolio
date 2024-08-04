@@ -157,7 +157,7 @@ export const projects: ProjectType[] = [
     name: "My Portfolio website",
     desc: "My Portfolio Website built with react.js and next.js bootstrap",
     github: "https://github.com/hindavilande05/developer-portfolio",
-    link: "#",
+    link: "https://portfolio-eosin-ten-52.vercel.app/",
   },
   {
     name: "TaskStack: Task Management App",
