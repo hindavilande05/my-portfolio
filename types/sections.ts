@@ -87,3 +87,13 @@ export type FeedbackType = {
   role: string;
   feedback: string;
 };
+
+
+// * ACHIEVEMENT SECTION
+
+export type AchievementType = {
+  title: string;
+  desc: string;
+  photo1: string;
+  photo2: string;
+}

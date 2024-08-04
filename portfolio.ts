@@ -9,14 +9,18 @@ import {
   SEODataType,
   SocialLinksType,
   GreetingsType,
+  AchievementType,
 } from "./types/sections";
+
+
+
 
 export const greetings: GreetingsType = {
   name: "Hindavi Lande",
   title: "Hi all, I'm Hindavi",
   description:
     "I'm a passionate Full Stack web developer and Android developer with experience developing applications with Angular, React.js and React-Native. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
-  resumeLink: "/public/Hindavi_Resume.pdf",
+  resumeLink: "",
 };
 
 export const openSource = {
@@ -110,7 +114,7 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: "Shri. Guru Gobind Singhji Institute of Engineering & Technology",
+    schoolName: "Shri. Guru Gobind Singhji Institute of Engineering & Technology, Nanded",
     subHeader: "Bachelor of Technology in Computer Science & Engineering",
     duration: "November 2022 - May 2025",
     desc: "",
@@ -152,8 +156,8 @@ export const projects: ProjectType[] = [
   {
     name: "My Portfolio website",
     desc: "My Portfolio Website built with react.js and next.js bootstrap",
-    github: "#",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    github: "https://github.com/hindavilande05/developer-portfolio",
+    link: "#",
   },
   {
     name: "TaskStack: Task Management App",
@@ -164,7 +168,7 @@ export const projects: ProjectType[] = [
   {
     name: "Lande Computer Hub Application",
     desc: "Created a web application for Government recognized computer typing institute and computer learning center.",
-    github: "#",
+    github: "https://github.com/hindavilande05/Lande-Computer-Hub",
     link: "https://hindavilande05.github.io/Lande-Computer-Hub/",
   },
   {
@@ -182,6 +186,17 @@ export const feedbacks: FeedbackType[] = [
     feedback:
       "I am impressed by your team's ability to deliver the project on time and with high quality. I am very happy with the work done by your team. I would like to work with you again in the future.",
   }
+];
+
+export const achievements: AchievementType[] = [
+  {
+    title: "Smart India Hackathon (SIH) 2023 Winner",
+    desc: "Team Abhigya - at GMRIT, Rajam, Andhra Pradesh",
+    photo1: "img/icons/common/sih1.jpg",
+    photo2: "img/icons/common/sih2.jpg"
+    
+  },
+  
 ];
 
 // See object prototype on /types/section.ts page

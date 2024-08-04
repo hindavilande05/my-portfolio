@@ -6,7 +6,7 @@ import { ProjectType } from "../types/sections";
 const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
   return (
     <Col lg="6">
-      <Card className="shadow-lg--hover shadow mt-4">
+      <Card style= {{flex: 1, height: '19rem'}} className="shadow-lg--hover shadow mt-4">
         <CardBody>
           <div className="d-flex px-3">
             <div className="pl-4">
@@ -19,8 +19,7 @@ const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
                   href={github}
                   target="_blank"
                   rel="noopener"
-                  aria-label="Github"
-                >
+                  aria-label="Github">
                   <span className="btn-inner--icon">
                     <i className="fa fa-github" />
                   </span>

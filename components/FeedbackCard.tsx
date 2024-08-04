@@ -5,7 +5,7 @@ import { FeedbackType } from "../types/sections";
 
 const FeedbackCard = ({ name, role, feedback }: FeedbackType) => {
   return (
-    <Card className="shadow-lg--hover shadow my-4 h-100">
+    <Card className="shadow-lg--hover shadow my-4 h-75 pb-3">
       <CardBody>
         <div className="d-flex px-3">
           <div className="pl-4">
