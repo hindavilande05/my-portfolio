@@ -157,13 +157,13 @@ export const projects: ProjectType[] = [
     name: "My Portfolio website",
     desc: "My Portfolio Website built with react.js and next.js bootstrap",
     github: "https://github.com/hindavilande05/developer-portfolio",
-    link: "https://portfolio-eosin-ten-52.vercel.app/",
+    link: "#",
   },
   {
     name: "TaskStack: Task Management App",
     desc: "TaskStack is an Android application designed to track and manage work assignments and projects efficiently. It helps teams keep records and stay organized throughout their tasks.",
     github: "https://github.com/atharva030/Neons",
-    link: "https://play.google.com/store/apps/details?id=com.taskstack&pcampaignid=web_share",
+    link: "https://taskstack-web.vercel.app/",
   },
   {
     name: "Lande Computer Hub Application",
@@ -205,7 +205,7 @@ export const seoData: SEODataType = {
   description: greetings.description,
   author: "Hindavi Lande",
   image: "https://avatars.githubusercontent.com/u/72275736?s=400&u=2edd67aa53e0643db465807043a7eb2e742ed0b8&v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  url: "https://portfolio-pmfyg1chd-hindavis-projects.vercel.app/",
   keywords: [
     "Hindavi",
     "Hindavi Lande",
